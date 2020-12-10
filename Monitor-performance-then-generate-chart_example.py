@@ -9,8 +9,8 @@ class fileHandler:
 
     def __init__(self, filename):
         self.filename = filename
-        self.f = open(self.filename, 'w')
-        self.f.close()
+        with open(self.filename, 'w') as f:
+            pass
         self.f = open(self.filename, 'a')
 
     def append(self, text):
