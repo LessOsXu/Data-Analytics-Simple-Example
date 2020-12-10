@@ -1,2 +1,2 @@
 # Data-Analytics-Simple-Example
-Personal studying
+Personal studying data analysis via Python numpy and pandas.
